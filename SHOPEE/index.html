@@ -1,0 +1,1185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Điện Quang</title>
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> 
+
+    <!-- Font Roboto gg -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./asssets/fonts/fontawesome-free-6.3.0-web/css/all.min.css">
+    <link rel="stylesheet" href="/SHOPEE/asssets/css/base.css">
+    <link rel="stylesheet" href="/SHOPEE/asssets/css/main.css">
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="grid">
+                <nav class="header__navbar">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item   header__navbar-item--has-pr   header__navbar-item--separate">
+                            Vào cửa hàng trên ứng dụng ĐiệnQuang-Shop
+                            <!-- Header-qrCode -->
+                            <div class="header__qr">
+                                <img class="header__qr-img" src="asssets/img/qr_code.png" alt="QR Code">
+                                <div class="header__qr-apps">
+                                    <a href="" class="header__qr-link"><img src="asssets/img/chplay.png" alt="Google Play" class="header__qr-download-img"></a>
+                                    <a href="" class="header__qr-link"><img src="asssets/img/app_store.png" alt="App Store" class="header__qr-download-img"></a>                                   
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <span class="header__navbar-title--no-pointer">Kết nối</span>
+                            <a class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fa-brands fa-facebook"></i>
+                            </a>
+
+                            <a class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+    
+                    <ul class="header__navbar-list ">
+                        <li class="header__navbar-item header__notify--has-notify">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="header__navbar-icon fa-regular fa-bell"></i>
+                                Thông báo
+                            </a>
+                            <div class="header__notify ">
+                                <header class="header__notify-header ">
+                                    <h3>Thông báo mới nhận</h3>
+                                </header>
+                                <ul class="header__notify-list ">
+                                    <li class="header__notify-item header__notify-item--viewed">
+                                        <a class="header__notify-link">
+                                            <img src="asssets/img/sanpham-thongbao.jpg" alt="" class="headr__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Xác thực chính hãng nguồn gốc các sản phẩm OHUI</span>
+                                                <span class="header__notify-description">Hidden Tag là giải pháp xác thực hàng chính hãng bằng công nghệ tiên tiến nhất hiện nay của Việt Nam</span>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="header__notify-item ">
+                                        <a class="header__notify-link ">
+                                            <img src="asssets/img/sanpham-thongbao.jpg" alt="" class="headr__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Mỹ phẩm OHUI chính hãng</span>
+                                                <span class="header__notify-description">Mô tả mỹ phẩm OHUI chính hãng</span>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="header__notify-item">
+                                        <a class="header__notify-link">
+                                            <img src="asssets/img/sanpham-thongbao.jpg" alt="" class="headr__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Mỹ phẩm OHUI chính hãng</span>
+                                                <span class="header__notify-description">Mô tả mỹ phẩm OHUI chính hãng</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <footer class="header__notify-footer">
+                                    <a href="" class="header__notify-footer-btn">Xem tất cả</a>
+                                </footer>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="header__navbar-icon fa-regular fa-circle-question"></i>
+                                Trợ giúp
+                            </a>
+                        </li>
+                        <!-- <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate">Đăng ký</li>
+                        <li class="header__navbar-item header__navbar-item--strong">Đăng nhập</li> -->
+                        <li class="header__navbar-item header__navbar-user">
+                            <img src="asssets/img/4_64.jpg" alt="" class="header__navbar-user-img">
+                            <span class="header_navbar-user-name">User</span>
+
+                            <ul class="header__navbar-user-menu">
+                                <li class="header__navbar-user--item">
+                                    <a href="">Tài khoản của tôi</a>
+                                </li>
+                                <li class="header__navbar-user--item">
+                                    <a href="">Địa chỉ</a>
+                                </li>
+                                <li class="header__navbar-user--item">
+                                    <a href="">Đơn mua</a>
+                                </li>
+                                <li class="header__navbar-user--item header__navbar-user--item--separate">
+                                    <a href="">Đăng xuất</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- Header with search -->
+                <div class="header-with-search">
+                    <div class="header__logo">
+                        <a href="/" class="header__logo-link">
+                            <img src="//theme.hstatic.net/1000253446/1000478658/14/home-logo.png?v=3273" alt="">
+                        </a>
+                        
+                    </div>
+
+                    <div class="header__search">
+                        <div class="header__search-input-wrap">
+                            <input placeholder="Nhập để tìm kiếm sản phẩm" type="text" class="header__search-input">
+                            
+                            <!-- Search History -->
+                            <div class="header__search-history">
+                                <h3 class="header__search-history-heading">Lịch sử tìm kiếm</h3>
+                                <ul class="header__search-history-list">
+                                    <li class="header__search-history-item">
+                                        <a href="">Áo sơ mi trắng</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="">quần jean</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="">Áo thun</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="header__search-select">
+                            <span class="header__search-select-lable">Trong shop</span>
+                            <i class=" header__search-select-icon fa-solid fa-chevron-down"></i>
+
+                            <ul class="header__search-option">
+                                <li class="header__search-option-item header__search-option-item--active">
+                                    <span>Trong shop</span>
+                                    <i class="fa-solid fa-check"></i>
+                                </li>
+
+                                <li class="header__search-option-item">
+                                    <span>Ngoài shop</span>
+                                    <i class="fa-solid fa-check"></i>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <button class="header__search-btn">
+                            <i class="header__search-btn-icon fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+
+                    <!-- Cart layout -->
+                    <div class="header__cart">
+                        <div class="header__cart-wrap">
+                            <i class="header__cart-icon fa-solid fa-cart-shopping"></i>
+                            <span class="header__cart-notice">3</span>
+                            <!-- No cart: header__cart-list--no-cart -->
+                            <div class="header__cart-list">
+                                <img src="asssets/img/no_cart.png" alt="" class="header__cart-no-cart-img">
+                                <span class="header__cart-list--no-cart-msg">Chưa có sản phẩm</span>
+
+                                <h4 class="header__cart-heading">Sản phẩm đã thêm</h4>
+                                <ul class="header__cart-list-item">
+                                    <!-- Cart Item -->
+                                    <li class="header__cart-item">
+                                        <img src="asssets/img/Picture10.png" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Đèn ngủ cảm biến LED Điện Quang ĐQ LNL10 ( Cảm biến quang )</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">80.000đ</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">2</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">
+                                                    Phân loại: Ổ cấm
+                                                </span>
+
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="header__cart-item">
+                                        <img src="asssets/img/Picture1.png" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head"
+                                                <h5 class="header__cart-item-name">Vợt muỗi thông minh kiêm Đèn bắt muỗi tự động 2 trong 1 Điện Quang EMR10 W</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">300.000đ</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">3</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">
+                                                    Phân loại: Thương Hiệu
+                                                </span>
+
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="header__cart-item">
+                                        <img src="asssets/img/Picture5.png" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Đèn bắt muỗi Điện Quang ĐQ EML06L ( 380x65x250mm )</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">280.000đ</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">3</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">
+                                                    Phân loại: Thương Hiệu
+                                                </span>
+
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="header__cart-item">
+                                        <img src="asssets/img/Picture6.png" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Ổ cắm Điện Quang ECO ĐQ ESK 32 ECO ( 3 lỗ 2 chấu )</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">140.000đ</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">2</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">
+                                                    Phân loại: Ổ Cấm
+                                                </span>
+
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="header__cart-item">
+                                        <img src="asssets/img/Picture9.png" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Ổ cắm du lịch Điện Quang ĐQ ESK TV01 ( Màu trắng )</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">280.000đ</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">4</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">
+                                                    Phân loại: Du Lịch
+                                                </span>
+
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="header__cart-item">
+                                        <img src="asssets/img/4_64.jpg" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Tranh vẽ đẹp nhất thế giới</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">12.000.000.000đ</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">2</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">
+                                                    Phân loại: Vải
+                                                </span>
+
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="header__cart-item">
+                                        <img src="asssets/img/4_64.jpg" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Tranh vẽ đẹp nhất thế giới</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">12.000.000.000đ</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">2</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">
+                                                    Phân loại: Vải
+                                                </span>
+
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+
+                                    <li class="header__cart-item">
+                                        <img src="asssets/img/4_64.jpg" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Tranh vẽ đẹp nhất thế giới</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">12.000.000.000đ</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">2</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">
+                                                    Phân loại: Vải
+                                                </span>
+
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+
+                                    <li class="header__cart-item">
+                                        <img src="asssets/img/4_64.jpg" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Tranh vẽ đẹp nhất thế giới</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">12.000.000.000đ</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">2</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">
+                                                    Phân loại: Vải
+                                                </span>
+
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                                <a href="#" class="header__cart-view-cart btn btn--primary ">Xem giỏ hàng</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="app__container">  
+            <div class="grid">
+                <div class="grid__row app__content">
+                    <div class="grid__column-2">
+                        <nav class="category">
+                            <h3 class="category__heading">
+                                <i class="category__heading-icon fa-solid fa-list"></i>
+                                Danh mục
+                            </h3>
+                            <ul class="category-list">
+                                <li class="category-item category-item--active">
+                                    <a href="#" class="category-item__link">Vợt điện</a>
+                                </li>
+    
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Ổ cắm</a>
+                                </li>
+    
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Đèn pin</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    
+                    <div class="grid__column-10">
+                        <div class="home-filter">
+                            <span class="home-filter__lable">Sắp xếp theo</span>
+                            <button class="home-filter__btn btn">Phổ biến</button>
+                            <button class="home-filter__btn btn">Mới nhất</button>
+                            <button class="home-filter__btn btn">Bán chạy</button>
+
+                            <div class="select-input">
+                                <span class="select-input__lable">Giá</span>
+                                <i class="select-input__icon fa-solid fa-chevron-down"></i>
+
+                            <!-- List option -->
+                                <ul class="select-input__list">
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">Giá: Thấp đến cao</a>
+                                    </li>
+
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">Giá: Cao đến thấp</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="home-filter_page">
+                                <span class="home-filter_page-num">
+                                    <span class="home-filter_page-current">1</span>/14
+                                </span>
+
+                                <div class="home-filter_page-control">
+                                    <a href="" class="home-filter_page-btn home-filter_page-btn--disabled">
+                                        <i class="home-filter_page-icon fa-solid fa-chevron-left"></i>
+                                    </a>
+
+                                    <a href="" class="home-filter_page-btn">
+                                        <i class="home-filter_page-icon fa-solid fa-chevron-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="home-product">
+                            <div class="grid__row">
+                                <div class="grid__column-2-4">
+                                    <!-- Product Item -->
+                                    <a class="home-product-item" href="">
+                                        <div class="home-product-item__img">
+                                            <img width="invalid-value" height="invalid-value" alt="Quần tây Nam Owen  Slim Fit màu Khác - QS22417" class="_7DTxhh vc8g9F" style="object-fit: contain" src="asssets/img/vot-muoi-dien-quang-emr04-mau-trang-vot-bat-muoi-thong-minh-va-den-bat-muoi-bao-hanh-12-thang-loi-1-doi-1-1.webp">
+                                        </div>
+
+                                        <h4 class="home-product-item__name">Vợt muỗi thông minh kiêm Đèn bắt muỗi tự động 2 trong 1 Điện Quang EMR10 W</h4>
+                                        <div class="home-product-item__price">
+                                            <div class="home-product-item__price-old">180.000</div>
+                                            <div class="home-product-item__price-current">150.000</div>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-fill fa-solid fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star-gold fa-solid fa-star"home-product-item__star-gold ></i>
+                                                <i class="home-product-item__star-gold fa-solid fa-star"home-product-item__star-gold ></i>
+                                                <i class="home-product-item__star-gold fa-solid fa-star"home-product-item__star-gold ></i>
+                                                <i class="home-product-item__star-gold fa-solid fa-star"home-product-item__star-gold ></i>
+                                                <i class=" fa-solid fa-star"></i>
+                                            </div>
+
+                                            <div class="home-product-item__sold">Đã bán 1k</div>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Điện Quang</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span> 
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">5%</span>
+                                            <span class="home-product-item__sale-off-lable">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="grid__column-2-4">
+                                    <!-- Product Item -->
+                                    <a class="home-product-item" href="">
+                                        <div class="home-product-item__img">
+                                            <img width="invalid-value" height="invalid-value" alt="Quần tây Nam Owen  Slim Fit màu Khác - QS22417" class="_7DTxhh vc8g9F" style="object-fit: contain" src="asssets/img/vot-muoi-dien-quang-emr07-mau-do-vot-bat-muoi-thong-minh-va-den-bat-muoi-bao-hanh-12-thang-loi-1-doi-1-1.webp">
+                                        </div>
+
+                                        <h4 class="home-product-item__name">Vợt muỗi Điện Quang ĐQ EMR09 GW (PinLithium, Xanh – Trắng)</h4>
+                                        <div class="home-product-item__price">
+                                            <div class="home-product-item__price-old">120.000đ</div>
+                                            <div class="home-product-item__price-current">100.000đ</div>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-fill fa-solid fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star-gold fa-solid fa-star"home-product-item__star-gold ></i>
+                                                <i class="home-product-item__star-gold fa-solid fa-star"home-product-item__star-gold ></i>
+                                                <i class="home-product-item__star-gold fa-solid fa-star"home-product-item__star-gold ></i>
+                                                <i class="home-product-item__star-gold fa-solid fa-star"home-product-item__star-gold ></i>
+                                                <i class=" fa-solid fa-star"></i>
+                                            </div>
+
+                                            <div class="home-product-item__sold">Đã bán 1,5k</div>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Điện Quang</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span> 
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-lable">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="grid__column-2-4">
+                                    <!-- Product Item -->
+                                    <a class="home-product-item" href="">
+                                        <div class="home-product-item__img">
+                                            <img width="invalid-value" height="invalid-value" alt="Quần tây Nam Owen  Slim Fit màu Khác - QS22417" class="_7DTxhh vc8g9F" style="object-fit: contain" src="asssets/img/Picture3.png">
+                                        </div>
+
+                                        <h4 class="home-product-item__name">Vợt muỗi Điện Quang ĐQ EMR01 BLR ( Đen - đỏ )</h4>
+                                        <div class="home-product-item__price">
+                                            <div class="home-product-item__price-old">220.000đ</div>
+                                            <div class="home-product-item__price-current">100.000đ</div>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-fill fa-solid fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star-gold fa-solid fa-star"home-product-item__star-gold ></i>
+                                                <i class="home-product-item__star-gold fa-solid fa-star"home-product-item__star-gold ></i>
+                                                <i class="home-product-item__star-gold fa-solid fa-star"home-product-item__star-gold ></i>
+                                                <i class="home-product-item__star-gold fa-solid fa-star"home-product-item__star-gold ></i>
+                                                <i class=" fa-solid fa-star"></i>
+                                            </div>
+
+                                            <div class="home-product-item__sold">Đã bán 1.2k</div>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Điện Quang</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span> 
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">35%</span>
+                                            <span class="home-product-item__sale-off-lable">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="grid__column-2-4">
+                                    <!-- Product Item -->
+                                    <a class="home-product-item" href="">
+                                        <div class="home-product-item__img">
+                                            <img width="invalid-value" height="invalid-value" alt="Quần tây Nam Owen  Slim Fit màu Khác - QS22417" class="_7DTxhh vc8g9F" style="object-fit: contain" src="asssets/img/Picture4.png">
+                                        </div>
+
+                                        <h4 class="home-product-item__name">Đèn bắt muỗi Điện Quang ĐQ EML08 BL</h4>
+                                        <div class="home-product-item__price">
+                                            <div class="home-product-item__price-old">350.000đ</div>
+                                            <div class="home-product-item__price-current">280.000đ</div>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-fill fa-solid fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star-gold fa-solid fa-star"home-product-item__star-gold ></i>
+                                                <i class="home-product-item__star-gold fa-solid fa-star"home-product-item__star-gold ></i>
+                                                <i class="home-product-item__star-gold fa-solid fa-star"home-product-item__star-gold ></i>
+                                                <i class="home-product-item__star-gold fa-solid fa-star"home-product-item__star-gold ></i>
+                                                <i class=" fa-solid fa-star"></i>
+                                            </div>
+
+                                            <div class="home-product-item__sold">Đã bán 1,7k</div>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Điện Quang</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span> 
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">20%</span>
+                                            <span class="home-product-item__sale-off-lable">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="grid__column-2-4">
+                                    <!-- Product Item -->
+                                    <a class="home-product-item" href="">
+                                        <div class="home-product-item__img">
+                                            <img width="invalid-value" height="invalid-value" alt="Quần tây Nam Owen  Slim Fit màu Khác - QS22417" class="_7DTxhh vc8g9F" style="object-fit: contain" src="asssets/img/Picture5.png">
+                                        </div>
+
+                                        <h4 class="home-product-item__name">Đèn bắt muỗi Điện Quang ĐQ EML06L ( 380x65x250mm )</h4>
+                                        <div class="home-product-item__price">
+                                            <div class="home-product-item__price-old">380.000đ</div>
+                                            <div class="home-product-item__price-current">300.000đ</div>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-fill fa-solid fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star-gold fa-solid fa-star"home-product-item__star-gold ></i>
+                                                <i class="home-product-item__star-gold fa-solid fa-star"home-product-item__star-gold ></i>
+                                                <i class="home-product-item__star-gold fa-solid fa-star"home-product-item__star-gold ></i>
+                                                <i class="home-product-item__star-gold fa-solid fa-star"home-product-item__star-gold ></i>
+                                                <i class=" fa-solid fa-star"></i>
+                                            </div>
+
+                                            <div class="home-product-item__sold">Đã bán 1k</div>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Điện Quang</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span> 
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">15%</span>
+                                            <span class="home-product-item__sale-off-lable">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="grid__column-2-4">
+                                    <!-- Product Item -->
+                                    <a class="home-product-item" href="">
+                                        <div class="home-product-item__img">
+                                            <img width="invalid-value" height="invalid-value" alt="Quần tây Nam Owen  Slim Fit màu Khác - QS22417" class="_7DTxhh vc8g9F" style="object-fit: contain" src="asssets/img/Picture6.png">
+                                        </div>
+
+                                        <h4 class="home-product-item__name">Ổ cắm Điện Quang ECO ĐQ ESK 32 ECO ( 3 lỗ 2 chấu )</h4>
+                                        <div class="home-product-item__price">
+                                            <div class="home-product-item__price-old">100.000đ</div>
+                                            <div class="home-product-item__price-current">75.000đ</div>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-fill fa-solid fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star-gold fa-solid fa-star"home-product-item__star-gold ></i>
+                                                <i class="home-product-item__star-gold fa-solid fa-star"home-product-item__star-gold ></i>
+                                                <i class="home-product-item__star-gold fa-solid fa-star"home-product-item__star-gold ></i>
+                                                <i class="home-product-item__star-gold fa-solid fa-star"home-product-item__star-gold ></i>
+                                                <i class=" fa-solid fa-star"></i>
+                                            </div>
+
+                                            <div class="home-product-item__sold">Đã bán 2,8k</div>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Điện Quang</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span> 
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-lable">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="grid__column-2-4">
+                                    <!-- Product Item -->
+                                    <a class="home-product-item" href="">
+                                        <div class="home-product-item__img">
+                                            <img width="invalid-value" height="invalid-value" alt="Quần tây Nam Owen  Slim Fit màu Khác - QS22417" class="_7DTxhh vc8g9F" style="object-fit: contain" src="asssets/img/Picture7.png">
+                                        </div>
+
+                                        <h4 class="home-product-item__name">Ổ cắm Xoay 90° Điện Quang ĐQ ESK RT 6 (6 lỗ)</h4>
+                                        <div class="home-product-item__price">
+                                            <div class="home-product-item__price-old">120.000đ</div>
+                                            <div class="home-product-item__price-current">80.000đ</div>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-fill fa-solid fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star-gold fa-solid fa-star"home-product-item__star-gold ></i>
+                                                <i class="home-product-item__star-gold fa-solid fa-star"home-product-item__star-gold ></i>
+                                                <i class="home-product-item__star-gold fa-solid fa-star"home-product-item__star-gold ></i>
+                                                <i class="home-product-item__star-gold fa-solid fa-star"home-product-item__star-gold ></i>
+                                                <i class=" fa-solid fa-star"></i>
+                                            </div>
+
+                                            <div class="home-product-item__sold">Đã bán 4,8k</div>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Điện Quang</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span> 
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">15%</span>
+                                            <span class="home-product-item__sale-off-lable">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="grid__column-2-4">
+                                    <!-- Product Item -->
+                                    <a class="home-product-item" href="">
+                                        <div class="home-product-item__img">
+                                            <img width="invalid-value" height="invalid-value" alt="Quần tây Nam Owen  Slim Fit màu Khác - QS22417" class="_7DTxhh vc8g9F" style="object-fit: contain" src="asssets/img/Picture8.png">
+                                        </div>
+
+                                        <h4 class="home-product-item__name">Phích cắm chuyển đa chiều Điện Quang ĐQ EPC NK-803-K</h4>
+                                        <div class="home-product-item__price">
+                                            <div class="home-product-item__price-old">70.000đ</div>
+                                            <div class="home-product-item__price-current">50.000đ</div>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-fill fa-solid fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star-gold fa-solid fa-star"home-product-item__star-gold ></i>
+                                                <i class="home-product-item__star-gold fa-solid fa-star"home-product-item__star-gold ></i>
+                                                <i class="home-product-item__star-gold fa-solid fa-star"home-product-item__star-gold ></i>
+                                                <i class="home-product-item__star-gold fa-solid fa-star"home-product-item__star-gold ></i>
+                                                <i class=" fa-solid fa-star"></i>
+                                            </div>
+
+                                            <div class="home-product-item__sold">Đã bán 1,2k</div>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Điện Quang</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span> 
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-lable">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="grid__column-2-4">
+                                    <!-- Product Item -->
+                                    <a class="home-product-item" href="">
+                                        <div class="home-product-item__img">
+                                            <img width="invalid-value" height="invalid-value" alt="Quần tây Nam Owen  Slim Fit màu Khác - QS22417" class="_7DTxhh vc8g9F" style="object-fit: contain" src="asssets/img/Picture9.png">
+                                        </div>
+
+                                        <h4 class="home-product-item__name">Ổ cắm du lịch Điện Quang ĐQ ESK TV01 ( Màu trắng )</h4>
+                                        <div class="home-product-item__price">
+                                            <div class="home-product-item__price-old">85.000đ</div>
+                                            <div class="home-product-item__price-current">70.000đ</div>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-fill fa-solid fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star-gold fa-solid fa-star"home-product-item__star-gold ></i>
+                                                <i class="home-product-item__star-gold fa-solid fa-star"home-product-item__star-gold ></i>
+                                                <i class="home-product-item__star-gold fa-solid fa-star"home-product-item__star-gold ></i>
+                                                <i class="home-product-item__star-gold fa-solid fa-star"home-product-item__star-gold ></i>
+                                                <i class=" fa-solid fa-star"></i>
+                                            </div>
+
+                                            <div class="home-product-item__sold">Đã bán 2.8k</div>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Điện Quang</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span> 
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-lable">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="grid__column-2-4">
+                                    <!-- Product Item -->
+                                    <a class="home-product-item" href="">
+                                        <div class="home-product-item__img">
+                                            <img width="invalid-value" height="invalid-value" alt="Quần tây Nam Owen  Slim Fit màu Khác - QS22417" class="_7DTxhh vc8g9F" style="object-fit: contain" src="asssets/img/Picture10.png">
+                                        </div>
+
+                                        <h4 class="home-product-item__name">Đèn ngủ cảm biến LED Điện Quang ĐQ LNL10 ( Cảm biến quang )</h4>
+                                        <div class="home-product-item__price">
+                                            <div class="home-product-item__price-old">50.000đ</div>
+                                            <div class="home-product-item__price-current">40.000đ</div>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-fill fa-solid fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star-gold fa-solid fa-star"home-product-item__star-gold ></i>
+                                                <i class="home-product-item__star-gold fa-solid fa-star"home-product-item__star-gold ></i>
+                                                <i class="home-product-item__star-gold fa-solid fa-star"home-product-item__star-gold ></i>
+                                                <i class="home-product-item__star-gold fa-solid fa-star"home-product-item__star-gold ></i>
+                                                <i class=" fa-solid fa-star"></i>
+                                            </div>
+
+                                            <div class="home-product-item__sold">Đã bán 1,7k</div>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Điện Quang</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span> 
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-lable">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <ul class="pagiation home-product__pagination">
+                        <li class="pagination-item ">
+                            <a href="" class="pagination-item__link">
+                                <i class="pagination-item__icon fa-solid fa-chevron-left"></i>
+                            </a>
+                        </li>
+
+                        <li class="pagination-item pagination-item--active">
+                            <a href="" class="pagination-item__link">1</a>
+                        </li>
+
+                        <li class="pagination-item">
+                            <a href="" class="pagination-item__link">2</a>
+                        </li>
+
+                        <li class="pagination-item">
+                            <a href="" class="pagination-item__link">3</a>
+                        </li>
+
+                        <li class="pagination-item">
+                            <a href="" class="pagination-item__link">4</a>
+                        </li>
+
+                        <li class="pagination-item">
+                            <a href="" class="pagination-item__link">5</a>
+                        </li>
+
+                        <li class="pagination-item">
+                            <a href="" class="pagination-item__link">...</a>
+                        </li>
+
+                        <li class="pagination-item">
+                            <a href="" class="pagination-item__link">14</a>
+                        </li>
+
+                        <li class="pagination-item">
+                            <a href="" class="pagination-item__link">
+                                <i class="pagination-item__icon fa-solid fa-chevron-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="grid">
+                <div class="grid__row">
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">Chăm sóc khách hàng</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Trung tâm trợ giúp</a>
+                            </li>
+
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">F8 - Shop Mall</a>
+                            </li>
+
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Hướng dẫn mua hàng</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">Giới thiệu</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Giới thiệu</a>
+                            </li>
+
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Tuyển dụng</a>
+                            </li>
+
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Chuyển khoản</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">Danh mục</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">
+                                    <i class=" footer-item__icon fa-brands fa-facebook"></i>
+                                    Facebook
+                                </a>
+                            </li>
+
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">
+                                    <i class="footer-item__icon fa-brands fa-instagram"></i>
+                                    Instagram
+                                </a>
+                            </li>
+
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">
+                                    <i class="footer-item__icon fa-brands fa-linkedin"></i>
+                                    LinkedIn
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">Theo dõi</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Trang điểm mặt</a>
+                            </li>
+
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Trang điểm môi</a>
+                            </li>
+
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Trang điểm mắt</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">Vào cửa hàng trên ứng dụng</h3>
+                        <div class="footer__download">
+                            <img src="asssets/img/qr_code.png" alt="" class="footer__download-qr">
+                            <div class="footer__download-apps">
+                                <a href="" class="footer__download-apps-link">
+                                    <img src="asssets/img/chplay.png" alt="Google Play" class="footer__download-app-img">
+                                </a>
+                                <a href="" class="footer__download-apps-link">
+                                    <img src="asssets/img/app_store.png" alt="App Store" class="footer__download-app-img">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <div class="grid">
+                    <p class="footer__text">Đại học Mở thành phố Hồ Chí Minh</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+<!-- Modal LAYOUT -->
+    <div class="modal">
+        <div class="modal__overlay"></div>
+
+        <div class="modal___body">
+            <!-- Register form -->
+            <!-- <div class="auth-form">
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading"> Đăng ký </h3>
+                        <span class="au-form__switch-btn">Đăng nhập</span>
+                    </div>
+
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Nhập email của bạn">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Nhập mật khẩu">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu">
+                        </div>
+                    </div>
+
+                    <div class="auth-form__aside">
+                        <p class="auth-form__policy-text">
+                            Bằng việc đăng ký, bạn đã đồng ý với TV-Shop về
+                            <a href="" class="auth-form__text-link">Điều khoản dịch vụ</a>
+                            &
+                            <a href="" class="auth-form__text-link">Chính sách bảo mật</a>
+                        </p>
+                    </div>
+
+                    <div class="auth-form__controls">
+                        <button class="btn auth-form__controls-back btn--normal">TRỞ LẠI</button>
+                        <button class="btn btn--primary">ĐĂNG KÝ</button>
+                    </div>
+                </div>
+
+                <div class="auth-form__socials">
+                    <a href="" class="auth-form__socials--facebook btn btn--size-s btn--with-icon">
+                        <i class="auth-form__socials-icon fa-brands fa-square-facebook"></i>
+                        <span class="auth-form__socials-title">
+                            Kết nối với Facebook
+                        </span>
+                    </a>
+
+                    <a href="" class="auth-form__socials--google btn btn--size-s btn--with-icon">
+                        <i class="auth-form__socials-icon fa-sharp fa-solid fa-g"></i>
+                        <span class="auth-form__socials-title">
+                            Kết nối với Google
+                        </span>
+                    </a>
+                </div>
+            </div> -->
+
+            <!-- Login form -->
+            <div class="auth-form">
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading"> Đăng nhập </h3>
+                        <span class="au-form__switch-btn">Đăng ký</span>
+                    </div>
+
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Nhập email của bạn">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Nhập mật khẩu">
+                        </div>
+                    </div>
+
+                    <div class="auth-form__aside">
+                       <div class="auth-form__help">
+                            <a href="" class="auth-form__help-link auth-form__help-fogot">Quên mật khẩu</a>
+                            <span class="auth-form__help-separate"></span>
+                            <a href="" class="auth-form__help-link">Cần trợ giúp?</a>
+                       </div>
+                    </div>
+
+                    <div class="auth-form__controls">
+                        <button class="btn auth-form__controls-back btn--normal">TRỞ LẠI</button>
+                        <button class="btn btn--primary">ĐĂNG NHẬP</button>
+                    </div>
+                </div>
+
+                <div class="auth-form__socials">
+                    <a href="" class="auth-form__socials--facebook btn btn--size-s btn--with-icon">
+                        <i class="auth-form__socials-icon fa-brands fa-square-facebook"></i>
+                        <span class="auth-form__socials-title">
+                            Kết nối với Facebook
+                        </span>
+                    </a>
+
+                    <a href="" class="auth-form__socials--google btn btn--size-s btn--with-icon">
+                        <i class="auth-form__socials-icon fa-sharp fa-solid fa-g"></i>
+                        <span class="auth-form__socials-title">
+                            Kết nối với Google
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
